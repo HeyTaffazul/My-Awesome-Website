@@ -33,3 +33,15 @@ function printPatterns(n) {
 
 // Print pattern for n=5
 printPatterns(5);
+
+
+// Function to find even numbers in an array
+function findEvenNumbers(arr) {
+    return arr.filter(number => number % 2 === 0);
+}
+
+// Function to find odd numbers in an array
+function findOddNumbers(arr) {
+    return arr.filter(number => number % 2 !== 0);
+}
+
