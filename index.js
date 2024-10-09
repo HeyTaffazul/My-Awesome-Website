@@ -44,4 +44,7 @@ function findEvenNumbers(arr) {
 function findOddNumbers(arr) {
     return arr.filter(number => number % 2 !== 0);
 }
+// Improved console output for clarity
+console.log("Even Numbers: ", findEvenNumbers(numbersArray));
+console.log("Odd Numbers: ", findOddNumbers(numbersArray));
 
